@@ -13,7 +13,9 @@ import { useEffect } from "react";
 export default function Projects() {
 
   /*for animation*/
-  const {ref, inView} = useInView();
+  const {ref, inView} = useInView({
+    threshold: 0.50
+  });
   const {setActiveSection} = useActiveSectionContext();
 
   useEffect(() => {
