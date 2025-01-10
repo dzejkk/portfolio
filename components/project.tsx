@@ -15,7 +15,7 @@ export default function Project({
 }: ProjectProps) {
 
 
-    /*animation tinkering */
+   /*------animation purpose -----*/
 
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -26,7 +26,7 @@ export default function Project({
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1])
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1])
 
-   /*----------------------*/
+   /*------animation purpose -----*/
 
 
   return (
@@ -65,17 +65,17 @@ export default function Project({
             alt="projects i worked on"
             quality={95}
             className="absolute top-8 -right-40 w-[28.25rem]
-                    transition
-                    rounded-t-lg shadow-2xl group-even:right-[initial]
-                    group-even:-left-40
-                    group-hover:-translate-x-3
-                    group-hover:translate-y-3
-                    group-hover:-rotate-2
-                    group-hover:scale-105
-        
-                    group-even:group-hover:translate-x-3
-                    group-even:group-hover:-translate-y-3
-                    group-even:group-hover:rotate-2"
+                       transition
+                       rounded-t-lg shadow-2xl group-even:right-[initial]
+                       group-even:-left-40
+                       group-hover:-translate-x-3
+                       group-hover:translate-y-3
+                       group-hover:-rotate-2
+                       group-hover:scale-105
+           
+                       group-even:group-hover:translate-x-3
+                       group-even:group-hover:-translate-y-3
+                       group-even:group-hover:rotate-2"
           />
         </section>
     </motion.div>
