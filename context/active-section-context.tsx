@@ -3,10 +3,10 @@
 import React from 'react'
 import { useState, createContext } from "react";
 import { links } from '@/lib/data';
+import type { SectionName } from '@/lib/types';
 
 /* TS */
 
-type SectionName = (typeof links)[number]["name"];
 type ActiveSectionContextProviderProps = {
     children: React.ReactNode
 }
@@ -26,7 +26,7 @@ export default function ActiveSectionContextProvider({children}:
      ActiveSectionContextProviderProps) {
 
     const [activeSection, setActiveSection] = useState<SectionName>("Home");
-    const [timeOfLastClick, setTimeOfLastClick] = useState(0);
+    const [timeOfLastClick, setTimeOfLastClick] = useState(0); // we need keep track of this to disable observer temporarerly
 
   return (
        <ActiveSectionContext.Provider

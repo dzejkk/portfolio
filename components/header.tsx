@@ -8,7 +8,7 @@ import { ActiveSectionContext, useActiveSectionContext } from "@/context/active-
 
 export default function Header( ) {
 
-const { activeSection, setActiveSection} = useActiveSectionContext();
+const { activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
 
 
   return (
@@ -47,7 +47,10 @@ const { activeSection, setActiveSection} = useActiveSectionContext();
                   }
                 )}
                 href={link.hash}
-                onClick={() => setActiveSection(link.name)}
+                onClick={() => 
+                {setActiveSection(link.name);
+                setTimeOfLastClick(Date.now());
+              }}
               >
                 {link.name}
 
