@@ -4,6 +4,7 @@ import Image from 'next/image'
 import About from '@/components/about'
 import Projects from '@/components/projects'
 import Skills from '@/components/skills'
+import Experience from '@/components/experience'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
+      <Experience />
     </main>
   )
 }
