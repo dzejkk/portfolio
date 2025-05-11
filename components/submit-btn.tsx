@@ -12,7 +12,8 @@ export default function SubmitBtn() {
                transition-all flex justify-center 
                items-center gap-4 focus:scale-110
                 hover:scale-110 hover:bg-gray-950
-                active:scale-105 disabled:scale-100 disabled:bg-opacity-75"
+                active:scale-105 disabled:scale-100 disabled:bg-opacity-75
+               dark:bg-gray-100 dark:bg-opacity-75 dark:text-gray-950"
       disabled={pending}
     >
       {pending ? (
