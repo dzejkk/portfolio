@@ -101,6 +101,8 @@ export default function Intro() {
         </a>
 
         <a
+          title="soc-link"
+          rel="noopener"
           href="https://www.linkedin.com"
           target="_blank"
           className="bg-white text-gray-700 p-4 flex items-center
@@ -111,6 +113,8 @@ export default function Intro() {
           <BsLinkedin />
         </a>
         <a
+          title="soc-link"
+          rel="noopener"
           href="https://github.com/dzejkk"
           target="_blank"
           className="bg-white text-gray-700 p-4 flex items-center

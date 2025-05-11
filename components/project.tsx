@@ -64,7 +64,7 @@ export default function Project({
           src={imageUrl}
           alt="projects i worked on"
           quality={95}
-          className="absolute top-8 -right-40 w-[28.25rem]
+          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem]
                        transition
                        rounded-t-lg shadow-2xl group-even:right-[initial]
                        group-even:-left-40
