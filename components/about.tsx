@@ -4,13 +4,10 @@ import SectionHeading from "./section-heading";
 import { motion } from "motion/react";
 import { useSectionInView } from "@/lib/hooks";
 
-
 export default function About() {
-
   /* animation */
-   const {ref} = useSectionInView("About");
- /* animation */
-
+  const { ref } = useSectionInView("About");
+  /* animation */
 
   return (
     <motion.section
