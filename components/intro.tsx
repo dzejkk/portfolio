@@ -20,7 +20,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 pt-12"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -65,7 +65,7 @@ export default function Intro() {
         <span className="font-bold">Front-end developer</span> with{" "}
         <span className="font-bold">0 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">React.js</span>.
       </motion.h1>
 
       <motion.div
@@ -119,8 +119,8 @@ export default function Intro() {
           target="_blank"
           className="bg-white text-gray-700 p-4 flex items-center
                          gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110
-                     active:scale-105 transition cursor-pointer border
-                      border-black/10 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
+                         active:scale-105 transition cursor-pointer border
+                       border-black/10 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <FaGitSquare />
         </a>

@@ -6,7 +6,7 @@ import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   /* animation */
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("About", 0.1);
   /* animation */
 
   return (

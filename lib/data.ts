@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import noiseCalculatorImg from "@/public/NoiseCals.png";
+import toDoImg from "@/public/ToDo.png";
+import documentGeneratorImg from "@/public/DocumentGenerator.png";
 
 export const links = [
   {
@@ -62,25 +62,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "NoiseCalculator",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as occupational health specialist and we needed tool that is calculating normalised sounds levels in working conditions, so i made one",
+    tags: ["React", "Zod", "Vite", "CSS.modules", "LocalStorage"],
+    imageUrl: noiseCalculatorImg,
+    link: "https://noise-calc-ver-2.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "ToDo list app, with audio UX",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Simple To Do app with Auth, and Sounds for  Great User Experience",
+    tags: ["React", "TypeScript", "Vite", "Tailwind"],
+    imageUrl: toDoImg,
+    link: "https://react-to-do-seven-alpha.vercel.app/",
   },
   {
-    title: "Word Analytics",
+    title: "Document generator App from .xlsx",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    tags: ["React", "CSS.modules", "react/pdf", "xlsx.js"],
+    imageUrl: documentGeneratorImg,
+    link: "https://react-document-generator-from-excel.vercel.app/",
   },
 ] as const;
 
@@ -88,20 +91,17 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
+  "Node",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "CSS.modules",
+  "Postman",
+  "Playwright",
+
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+
   "Framer Motion",
 ] as const;
