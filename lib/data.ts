@@ -80,7 +80,7 @@ export const projectsData = [
   {
     title: "Document generator App from .xlsx",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Utility app for extracting data from last row in the .xlsx files, then you can create custom pdfs with the template and custom styling",
     tags: ["React", "CSS.modules", "react/pdf", "xlsx.js"],
     imageUrl: documentGeneratorImg,
     link: "https://react-document-generator-from-excel.vercel.app/",
