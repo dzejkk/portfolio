@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuLightbulb } from "react-icons/lu";
 import noiseCalculatorImg from "@/public/NoiseCals.png";
 import toDoImg from "@/public/ToDo.png";
 import documentGeneratorImg from "@/public/DocumentGenerator.png";
@@ -35,28 +35,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Foundations and Intensive Self-Study",
+    location: "freeCodeCamp",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I decided to fully commit to learning programming. I began studying through freeCodeCamp, The Odin Project, YouTube tutorials, and technical books",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "First Projects and Full-Stack Fundamentals",
+    location: "The Odin Project",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I created my first independent websites and small applications. I continued with the full-stack path from The Odin Project, where I deepened my understanding of back-end development, server-side logic, and database concepts",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "React Development",
+    location: "SkillMea",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "The year 2025 marked a significant step forward. I built my first React.js applications, including a fully functional full-stack project that is actively used by people in my surroundings.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2025 - present",
+  },
+  {
+    title: "Future",
+    description:
+      "Although I do not yet have official work experience in an IT company, my projects, continuous learning, and ability to independently build functional web applications have allowed me to develop a strong foundation for future professional growth in web development.",
+    icon: React.createElement(LuLightbulb),
   },
 ] as const;
 
@@ -95,13 +101,10 @@ export const skillsData = [
   "Node",
   "Git",
   "Tailwind",
-  "MongoDB",
   "CSS.modules",
   "Postman",
   "Playwright",
-
   "Express",
   "PostgreSQL",
-
   "Framer Motion",
 ] as const;
