@@ -6,7 +6,7 @@ import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   /* animation */
-  const { ref } = useSectionInView("About", 0.1);
+  const { ref } = useSectionInView("About", 0.75);
   /* animation */
 
   return (
@@ -28,10 +28,8 @@ export default function About() {
         process of creation new things and seeing them come to life. I{" "}
         <span className="underline">love</span> the feeling of creating new
         stuff. My core stack is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and PostgreSQL
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        <span className="font-medium">React, Node.js, and PostgreSQL</span>. I
+        am also familiar with TypeScript and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">Full-time or Part-time position</span> as
         a Front-end software developer.

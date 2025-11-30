@@ -43,10 +43,17 @@ export default function Header() {
                   {
                     "text-gray-950 dark:text-gray-200":
                       activeSection === link.name,
-                  }
+                  },
                 )}
                 href={link.hash}
-                onClick={() => {
+                onClick={(e) => {
+                  if (link.name === "Home") {
+                    e.preventDefault();
+                    window.scrollTo({
+                      top: 0,
+                      behavior: "smooth",
+                    });
+                  }
                   setActiveSection(link.name);
                   setTimeOfLastClick(Date.now());
                 }}
