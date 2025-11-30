@@ -56,13 +56,15 @@ export const experiencesData = [
     description:
       "The year 2025 marked a significant step forward. I built my first React.js applications, including a fully functional full-stack project that is actively used by people in my surroundings.",
     icon: React.createElement(FaReact),
-    date: "2025 - present",
+    date: "2025",
   },
   {
     title: "Future",
+    location: "Slovakia",
     description:
       "Although I do not yet have official work experience in an IT company, my projects, continuous learning, and ability to independently build functional web applications have allowed me to develop a strong foundation for future professional growth in web development.",
     icon: React.createElement(LuLightbulb),
+    date: "present",
   },
 ] as const;
 
