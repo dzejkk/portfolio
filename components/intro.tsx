@@ -106,8 +106,8 @@ export default function Intro() {
           href="https://www.linkedin.com"
           target="_blank"
           className="bg-white text-gray-700 p-4 flex items-center
-                         gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
-                     active:scale-105 transition cursor-pointer border border-black/10
+                      gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
+                      active:scale-105 transition cursor-pointer border border-black/10
                       hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
@@ -118,8 +118,8 @@ export default function Intro() {
           href="https://github.com/dzejkk"
           target="_blank"
           className="bg-white text-gray-700 p-4 flex items-center
-                         gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110
-                         active:scale-105 transition cursor-pointer border
+                       gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110
+                       active:scale-105 transition cursor-pointer border
                        border-black/10 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <FaGitSquare />
